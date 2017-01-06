@@ -1,30 +1,13 @@
 # 100 Days Of Code - Log
 
-### Day 0: February 30, 2016 (Example 1)
-##### (delete me or comment me out)
+### Day 1: January 06, 2017
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+**Today's Progress**: Designed "Centre Point" location card inspired by [this Dribble shot](https://dribbble.com/shots/2144170-Day-014-Location-Card)
 
-**Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+**Thoughts:** Earlier on the day: *while reading CSS* "Hmm.. This seems easy. I get this."
 
-**Link to work:** [Calculator App](http://www.example.com)
+At the end of the day: *"hard-coding" CSS attribute* "Where does this tiny whitespace come from? WTH, where did my images go?"
 
-### Day 0: February 30, 2016 (Example 2)
-##### (delete me or comment me out)
+Warning: Resize your browser at your own risk. Layout fiasco ahead!
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
-
-**Thoughts**: I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
-
-**Link(s) to work**: [Calculator App](http://www.example.com)
-
-
-### Day 1: June 27, Monday
-
-**Today's Progress**: I've gone through many exercises on FreeCodeCamp.
-
-**Thoughts** I've recently started coding, and it's a great feeling when I finally solve an algorithm challenge after a lot of attempts and hours spent.
-
-**Link(s) to work**
-1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
-2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
+**Link to work:** [Day 1](http://d0ct0r4r6a.github.io/day-1/)
