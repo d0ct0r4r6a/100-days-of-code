@@ -20,3 +20,19 @@ Warning: Resize your browser at your own risk. Layout fiasco ahead!
 with PHP syntax.
 
 **Link to work:** [Day 2](https://twitter.com/d0ct0r4r6a/status/817743292158705665)
+
+### Day 3: January 09, 2017
+
+**Today's Progress**: Created a tribute page for Ahok
+
+**Thoughts:** Not much progress except browsing inspirations and blogs of web design.
+
+**Link to work:** [Day 3](http://codepen.io/d0ct0r4r6a/full/wgaJOw/)
+
+### Day 4: January 10, 2017
+
+**Today's Progress**: Another card for front-end practice. Inspired by [this shot](https://dribbble.com/shots/2314157-Daily-UI-Day-1/attachments/439137)
+
+**Thoughts:** Ah.. finally some responsive designs here and there (flexbox, em, vw). The values are derived by trial-and-error but it's a good start. Thinking of learning React or Angular next.
+
+**Link to work:** [Day 4](http://d0ct0r4r6a.github.io/day-4/)
