@@ -36,3 +36,13 @@ with PHP syntax.
 **Thoughts:** Ah.. finally some responsive designs here and there (flexbox, em, vw). The values are derived by trial-and-error but it's a good start. Thinking of learning React or Angular next.
 
 **Link to work:** [Day 4](http://d0ct0r4r6a.github.io/day-4/)
+
+### Day 5: January 11, 2017
+
+**Today's Progress**: Practice makes perfect. Attempting to replicate [Airbnb's](https://airbnb.com) footer. 'Done'. But not responsive.
+
+**Thoughts:** HTML5 Boilerplate gives a good start for web project. This project nudges me to use CSS preprocessor next time – just look at my stylesheet housekeeping :/
+
+One last thing: NEED TO STUDY RESPONSIVE WEB DESIGN NITTY GRITTY DETAILS!
+
+**Link to work:** [Day 5](http://d0ct0r4r6a.github.io/day-5/)
