@@ -46,3 +46,11 @@ with PHP syntax.
 One last thing: NEED TO STUDY RESPONSIVE WEB DESIGN NITTY GRITTY DETAILS!
 
 **Link to work:** [Day 5](http://d0ct0r4r6a.github.io/day-5/)
+
+### Day 6: January 12, 2017
+
+**Today's Progress**: Added some infos on the CMS dashboard and the media.php file to browse.. well, media
+
+**Thoughts:** A modest progress. Far from what I expected. Damn it. I slacked a lot today. I need to commit myself to start learning React and the sort. 
+
+**Link to work:** [Day 6](https://twitter.com/d0ct0r4r6a/status/819591613617872896)
