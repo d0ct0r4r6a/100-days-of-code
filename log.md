@@ -54,3 +54,19 @@ One last thing: NEED TO STUDY RESPONSIVE WEB DESIGN NITTY GRITTY DETAILS!
 **Thoughts:** A modest progress. Far from what I expected. Damn it. I slacked a lot today. I need to commit myself to start learning React and the sort. 
 
 **Link to work:** [Day 6](https://twitter.com/d0ct0r4r6a/status/819591613617872896)
+
+### Day 7: January 13, 2017
+
+**Today's Progress**: I know tutorial doesn't count but finally arrived at React's front door, which means tasting Babel and ES6 first-hand
+
+**Thoughts:** Argh, why must it be another weird syntax.. React oh React
+
+**Link to work:** [Day 7](https://twitter.com/d0ct0r4r6a/status/819948641301340161)
+
+### Day 8: January 14, 2017
+
+**Today's Progress**: Started working on @freeCodeCamp basic algo scripting. Also started learning web workflow, today I learned PostCSS 
+
+**Thoughts:** I wonder if learning workflow / development stack would expand my software engineering skillset, but it is certainly being looked for in front-end dev candidates.
+
+**Link to work:** [Day 8](https://twitter.com/d0ct0r4r6a/status/820306836284960768)
