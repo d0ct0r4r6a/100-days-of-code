@@ -23,6 +23,5 @@ Jan 06th, 2017. [PUT YOUR DATE HERE]
 
 ## Contents
 * [Rules](rules.md)
-* [Log - click here to see my progress](log.md)
 * [FAQ](FAQ.md)
 * [Resources](resources.md)
