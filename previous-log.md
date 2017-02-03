@@ -1,4 +1,4 @@
-# 100 Days Of Code - Log
+# 100 Days Of Code - Log (Old)
 
 ### Day 1: January 06, 2017
 
