@@ -2,15 +2,13 @@
 
 ### Day 1: 03 Feb 2017
 
-**Today's Progress**: Designed "Centre Point" location card inspired by [this Dribble shot](https://dribbble.com/shots/2144170-Day-014-Location-Card)
+**Today's Progress:** Revamped my Github page using Jekyll with Hyde theme.
 
-**Thoughts:** Earlier on the day: *while reading CSS* "Hmm.. This seems easy. I get this."
+**Thoughts:** Different Jekyll themes have different layout coding style —
+further complicating content insertion. Tried using Bootstrap but ended 
+distorting all the styles. 
 
-At the end of the day: *"hard-coding" CSS attribute* "Where does this tiny whitespace come from? WTH, where did my images go?"
-
-Warning: Resize your browser at your own risk. Layout fiasco ahead!
-
-**Link to work:** [Day 1](http://d0ct0r4r6a.github.io/day-1/)
+**Link to work:** [Day 1](http://d0ct0r4r6a.github.io)
 
 ## About #100DaysofCode
 * [Rules](rules.md)
