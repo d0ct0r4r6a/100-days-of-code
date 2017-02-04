@@ -19,7 +19,7 @@ distorting all the styles.
 **Code Snippets:** 
 
 My first Angular Component:
-```javascript
+{% highlight javascript %}
 (function (app) {
   app.AppComponent =
     ng.core.Component({
@@ -34,10 +34,10 @@ My first Angular Component:
         constructor: function () { }
       });
 })(window.app || (window.app = {}));
-```
+{% endhighlight %}
 
 Trying ES6 syntax with Babel:
-```javascript
+{% highlight javascript %}
   //ES6
   [1,2,3].map(x => x * x);
 
@@ -45,10 +45,11 @@ Trying ES6 syntax with Babel:
   [1, 2, 3].map(function (x) {
   return x * x;
 });
-```
+{% endhighlight %}
+
 
 Grunt automation ROCKS!:
-```javascript
+{% highlight javascript %}
 module.exports = function (grunt) {
   grunt.initConfig({
     concat: {
@@ -69,7 +70,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
 
 };
-```
+{% endhighlight %}
 
 ## About #100DaysofCode
 * [Rules](rules.md)
