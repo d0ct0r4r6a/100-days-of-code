@@ -72,6 +72,55 @@ module.exports = function (grunt) {
 };
 {% endhighlight %}
 
+### Day 3: 05 Feb 2017
+
+**Today's Progress:** Started a completely [fresh Jekyll x Bootstrap website](https://d0ct0r4r6a.github.io/Playground-Bootstrap-4/). It will serve as my practice ground and inspiration dump point for Bootstrap 4. I am also going through Jekyll docs verbatim.
+
+**Thoughts:** Jekyll's Liquid rendering engine is something. I guess I will have to play around with Jekyll some more to get used to it. Tried using Bower and npm (and Grunt) for the new website, but they messed up my directories. Need to experiment with the workflow and see what others do.
+
+**Screenshots:**
+
+![Playground · Bootstrap 4 initial directories](img/d3-1.png)
+
+*Playground · Bootstrap 4 directories*
+
+**Code Snippets:**
+
+In my _config.yml:
+```yml
+# Dev
+
+source: ./            #Default value
+destination: ./_site  #Default value
+highlighter: rouge
+incremental: TRUE
+markdown:    kramdown
+port: 100 # Port 4000 is used to view Jekyll docs
+profile: TRUE
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: "default"
+```
+
+In my _includes/head.html:
+
+```html
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Playground &middot; Bootstrap 4</title>
+  <link rel="stylesheet" href="{{site.baseurl}}/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/bootstrap-grid.min.css">
+  <script src="{{site.baseurl}}/js/bootstrap.min.js"></script>
+</head>
+```
+
 ## About #100DaysofCode
 * [Rules](rules.md)
 * [Previous Log: my first run – ended on the 8th day ](previous-log.md)
