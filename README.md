@@ -19,7 +19,9 @@ distorting all the styles.
 **Code Snippets:** 
 
 My first Angular Component:
+
 {% highlight javascript%}
+```javascript
 (function (app) {
   app.AppComponent =
     ng.core.Component({
@@ -34,10 +36,12 @@ My first Angular Component:
         constructor: function () { }
       });
 })(window.app || (window.app = {}));
+```
 {% endhighlight %}
 
 Trying ES6 syntax with Babel:
 {% highlight javascript%}
+```javascript
   //ES6
   [1,2,3].map(x => x * x);
 
@@ -45,11 +49,13 @@ Trying ES6 syntax with Babel:
   [1, 2, 3].map(function (x) {
   return x * x;
 });
+```
 {% endhighlight %}
 
 
 Grunt automation ROCKS!:
 {% highlight javascript%}
+```javascript
 module.exports = function (grunt) {
   grunt.initConfig({
     concat: {
@@ -70,6 +76,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
 
 };
+```
 {% endhighlight %}
 
 ### Day 3: 05 Feb 2017
@@ -86,7 +93,9 @@ module.exports = function (grunt) {
 
 **Code Snippets:**
 
-In my _config.yml:
+In my _config.yml/html :
+
+{% highlight yaml %}
 ```
 # Dev
 
@@ -106,6 +115,7 @@ defaults:
     values:
       layout: "default"
 ```
+{% endhighlight %}
 
 In my _includes/head.html:
 
