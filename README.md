@@ -21,7 +21,7 @@ distorting all the styles.
 My first Angular Component:
 
 {% highlight javascript%}
-```javascript
+//```javascript
 (function (app) {
   app.AppComponent =
     ng.core.Component({
@@ -36,12 +36,12 @@ My first Angular Component:
         constructor: function () { }
       });
 })(window.app || (window.app = {}));
-```
+//```
 {% endhighlight %}
 
 Trying ES6 syntax with Babel:
 {% highlight javascript%}
-```javascript
+//```javascript
   //ES6
   [1,2,3].map(x => x * x);
 
@@ -49,13 +49,13 @@ Trying ES6 syntax with Babel:
   [1, 2, 3].map(function (x) {
   return x * x;
 });
-```
+//```
 {% endhighlight %}
 
 
 Grunt automation ROCKS!:
 {% highlight javascript%}
-```javascript
+//```javascript
 module.exports = function (grunt) {
   grunt.initConfig({
     concat: {
@@ -76,7 +76,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
 
 };
-```
+//```
 {% endhighlight %}
 
 ### Day 3: 05 Feb 2017
@@ -87,16 +87,16 @@ module.exports = function (grunt) {
 
 **Screenshots:**
 
-![Playground · Bootstrap 4 initial directories](img/d3-1.png)
+<img src="img/d3-1.png" alt="Playground · Bootstrap 4 initial directories"/>
 
-*Playground · Bootstrap 4 directories*
+*Playground · Bootstrap 4 initial directories*
 
 **Code Snippets:**
 
 In my _config.yml/html :
 
 {% highlight yaml %}
-```
+#```
 # Dev
 
 source: ./            #Default value
@@ -114,7 +114,7 @@ defaults:
       type: pages
     values:
       layout: "default"
-```
+#```
 {% endhighlight %}
 
 In my _includes/head.html:
@@ -130,6 +130,33 @@ In my _includes/head.html:
   <script src="{{site.baseurl}}/js/bootstrap.min.js"></script>
 </head>
 ```
+
+### Day 4: 06 Feb 2017
+
+**Today's Progress:** Continued building (and experimenting with) [the Jekyll x Bootstrap site](https://d0ct0r4r6a.github.io/Playground-Bootstrap-4/). 
+
+**Thoughts:** [jekyll-livereload](https://github.com/RobertDeRose/jekyll-livereload) plugin is a time-saver. The only pesky thing to deal with (for now) is getting the `site.baseurl` thingy to work with links. Kept restarting the local server. Urgh!
+
+**Tips:** If you like to have Bootstrap 4 quick reference, then the [Bootstrap 4 Cheat Sheet](https://hackerthemes.com/bootstrap-cheatsheet/) is for you. 
+
+**Code Snippets:**
+
+The post.html layout:
+
+```html
+<div class="container">
+  <div class="row">
+    <div class="col-8 offset-2">
+      <h1 class="display-4">{{ page.title }}</h1>
+      <p class="lead">{{ page.description }}</p>
+      <hr>
+          {{ content }}
+      <a href="{{site.baseurl}}" class="btn btn-outline-primary">Back</a>
+    </div>
+  </div>
+</div>
+```
+
 
 ## About #100DaysofCode
 * [Rules](rules.md)
