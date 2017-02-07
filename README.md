@@ -1,3 +1,5 @@
+---
+---
 # 100 Days Of Code - Log
 
 ### Day 1: 03 Feb 2017
@@ -21,7 +23,7 @@ distorting all the styles.
 My first Angular Component:
 
 {% highlight javascript%}
-//```javascript
+```javascript
 (function (app) {
   app.AppComponent =
     ng.core.Component({
@@ -36,12 +38,12 @@ My first Angular Component:
         constructor: function () { }
       });
 })(window.app || (window.app = {}));
-//```
+```
 {% endhighlight %}
 
 Trying ES6 syntax with Babel:
 {% highlight javascript%}
-//```javascript
+```javascript
   //ES6
   [1,2,3].map(x => x * x);
 
@@ -49,13 +51,13 @@ Trying ES6 syntax with Babel:
   [1, 2, 3].map(function (x) {
   return x * x;
 });
-//```
+```
 {% endhighlight %}
 
 
 Grunt automation ROCKS!:
 {% highlight javascript%}
-//```javascript
+```javascript
 module.exports = function (grunt) {
   grunt.initConfig({
     concat: {
@@ -76,7 +78,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
 
 };
-//```
+```
 {% endhighlight %}
 
 ### Day 3: 05 Feb 2017
@@ -87,7 +89,7 @@ module.exports = function (grunt) {
 
 **Screenshots:**
 
-<img src="img/d3-1.png" alt="Playground · Bootstrap 4 initial directories"/>
+<img src="{{site.baseurl}}img/d3-1.png" alt="Playground · Bootstrap 4 initial directories"/>
 
 *Playground · Bootstrap 4 initial directories*
 
@@ -96,7 +98,7 @@ module.exports = function (grunt) {
 In my _config.yml/html :
 
 {% highlight yaml %}
-#```
+```
 # Dev
 
 source: ./            #Default value
@@ -114,7 +116,7 @@ defaults:
       type: pages
     values:
       layout: "default"
-#```
+```
 {% endhighlight %}
 
 In my _includes/head.html:
@@ -156,7 +158,11 @@ The post.html layout:
   </div>
 </div>
 ```
+### Day 5: 07 Feb 2017
 
+**Today's Progress:** Started *seriously* learning NodeJS. 
+
+**Thoughts:** I fell sick and couldn't think properly. Only managed to go through the codes in [this playlist](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp).
 
 ## About #100DaysofCode
 * [Rules](rules.md)
