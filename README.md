@@ -1,5 +1,3 @@
----
----
 # 100 Days Of Code - Log
 
 ### Day 1: 03 Feb 2017
