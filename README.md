@@ -164,6 +164,11 @@ The post.html layout:
 
 **Thoughts:** I fell sick and couldn't think properly. Only managed to go through the codes in [this playlist](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp).
 
+### [SICK] : 08 Feb 2017
+
+**Note:** My cold worsens. I can't stand looking at my laptop screen. So I rest for most of the day and prepare for my trip to Singapore tonight. 
+
+
 ## About #100DaysofCode
 * [Rules](rules.md)
 * [Previous Log: my first run – ended on the 8th day ](previous-log.md)
