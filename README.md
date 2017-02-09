@@ -166,6 +166,13 @@ The post.html layout:
 
 **Note:** My cold worsens. I can't stand looking at my laptop screen. So I rest for most of the day and prepare for my trip to Singapore tonight. 
 
+### Day 6: 09 Feb 2017
+
+**Today's Progress:** Updated my personal website: [About](https://d0ct0r4r6a.github.io/about/), ][Books](https://d0ct0r4r6a.github.io/books/).
+
+**Thoughts:** Not responsive yet.
+
+**Sponsors:** Check out [this awesome character/story planner](http://bit.ly/2k7yxzh)
 
 ## About #100DaysofCode
 * [Rules](rules.md)
