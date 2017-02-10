@@ -174,6 +174,12 @@ The post.html layout:
 
 **Sponsors:** Check out [this awesome character/story planner](http://bit.ly/2k7yxzh)
 
+### Day 7: 10 Feb 2017
+
+**Today's Progress:** Breaking the [rules](rules.md) here, but today I was only following tutorials in [this playlist](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp).
+
+**Thoughts:** I should have spent an hour really focusing on my projects then I would watch / do any tutorials. Anyway, I got the gist of NodeJS and Express now.
+
 ## About #100DaysofCode
 * [Rules](rules.md)
 * [Previous Log: my first run – ended on the 8th day ](previous-log.md)
