@@ -178,7 +178,77 @@ The post.html layout:
 
 **Today's Progress:** Breaking the [rules](rules.md) here, but today I was only following tutorials in [this playlist](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp).
 
-**Thoughts:** I should have spent an hour really focusing on my projects then I would watch / do any tutorials. Anyway, I got the gist of NodeJS and Express now.
+**Thoughts:** I should have spent an hour really focusing on my projects then I would watch / do any tutorials. Anyway, I got the gist of NodeJS and Express now. Is it just me or Express feels like Jekyll but with extra capabilities such as it can use Javascript to extend its Views templates. Like Jekyll + PHP + JS => Express
+
+**Tips:** Use [nodemon](https://nodemon.io/) during NodeJS development. The [jekyll-livereload](https://github.com/RobertDeRose/jekyll-livereload) equivalent in NodeJS. 
+
+**Code Snippets:**
+
+My first Express app:
+
+{% highlight javascript %}
+```javascript
+var express = require('express');
+var bodyParser = require('body-parser');
+
+
+var app = express();
+
+var urlencodedParser = bodyParser.urlencoded({ extended: false });
+
+app.set('view engine', 'ejs');
+app.use('/assets', express.static('assets')); 
+
+app.get('/', function(req, res){
+  res.render('index');
+});
+
+app.get('/contact', function(req, res){
+  
+  res.render('contact', {qs : req.query});
+});
+
+app.post('/contact', urlencodedParser, function(req, res){
+  console.log(req.body);
+  res.render('contact-success', {data: req.body});
+});
+
+app.get('/profile/:name', (req,res)=>{
+  var data = {
+    age: 29, 
+    job: 'developer',
+    hobbies: ['eating','fighting','singing']
+  };
+  res.render('profile', {person: req.params.name, data: data})
+});
+
+app.listen(3000);
+```
+{% endhighlight %}
+
+An embeddedJS template, see what I meant by Jekyll + PHP + JS:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title><%= person %>'s profile</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <% include partials/nav.ejs %>
+  <h1>Welcome to the profile of <%= person %></h1>
+  <p><strong>Age: </strong><%= data.age %></p>
+  <p><strong>Job: </strong><%= data.job %></p>
+  <ul>
+    <% data.hobbies.forEach(function(item){ %>
+      <li><%= item %></li>
+    <% }); %>
+  </ul>
+</body>
+</html>
+```
 
 ## About #100DaysofCode
 * [Rules](rules.md)
