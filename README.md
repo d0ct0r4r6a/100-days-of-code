@@ -250,6 +250,13 @@ An embeddedJS template, see what I meant by Jekyll + PHP + JS:
 </html>
 ```
 
+### Day 8: 11 Feb 2017
+
+**Today's Progress:** Created a [To-do list app](https://github.com/d0ct0r4r6a/To-Do-NodeJS-App).
+
+**Thoughts:** The feeling of completing something is amazing. Learned about connecting Express app to MongoDB with Mongoose as the driver and mLab as the database host. AJAX is a powerful tool, really.
+
+
 ## About #100DaysofCode
 * [Rules](rules.md)
 * [Previous Log: my first run – ended on the 8th day ](previous-log.md)
