@@ -256,6 +256,20 @@ An embeddedJS template, see what I meant by Jekyll + PHP + JS:
 
 **Thoughts:** The feeling of completing something is amazing. Learned about connecting Express app to MongoDB with Mongoose as the driver and mLab as the database host. AJAX is a powerful tool, really.
 
+### The 2-week hiatus
+
+Ah... Please forgive me. 2 whole weeks without coding at all? What am I thinking? Truth is, I moved from my hometown to the bustling capital, Jakarta. This is not really an excuse since 1-hour of coding could easily be done by some unemployed guy like me who has almost the whole day. Hahahaha.
+
+Anyway, I have been learning something new everyday. I got my hands on Linux server setup, Excel VBA scripting, and other stuff. Hahhaha let me resume this log now..
+
+Trivia: The last log also stopped on the 8th entry. Hmm what's with the number 8?
+
+### Day 9: 25 Feb 2017
+
+**Today's Progress:** Built more familiar layout for [Playground &middot; Bootstrap 4](https://d0ct0r4r6a.github.io/Playground-Bootstrap-4/). Also started brainstorming for the first element on the site, the jumbotron.
+
+**Thoughts:** I just learned the CSS `animation` fundamentals. I wonder if I could use it on the Playground &middot; Bootstrap4 site.
+
 
 ## About #100DaysofCode
 * [Rules](rules.md)
