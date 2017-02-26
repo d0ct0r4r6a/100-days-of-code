@@ -270,6 +270,11 @@ Trivia: The last log also stopped on the 8th entry. Hmm what's with the number 8
 
 **Thoughts:** I just learned the CSS `animation` fundamentals. I wonder if I could use it on the Playground &middot; Bootstrap4 site.
 
+### Day 10: 26 Feb 2017
+
+**Today's Progress:** Playing around with CSS animation; creating sliding box. On the other hand, learned how to integrate PostCSS to my workflow.
+
+**Thoughts:** Hmm PostCSS has a lot of plugins. Where to start?
 
 ## About #100DaysofCode
 * [Rules](rules.md)
