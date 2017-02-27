@@ -276,6 +276,44 @@ Trivia: The last log also stopped on the 8th entry. Hmm what's with the number 8
 
 **Thoughts:** Hmm PostCSS has a lot of plugins. Where to start?
 
+### Day 11: 27 Feb 2017
+
+**Today's Progress:** Spent the whole day watching tutorials. Learned a whole bunch about setting up reproducible build using Jake.
+
+**Thoughts:** Okay, so we have Jake, Grunt, and Gulp. JS is full of choices, eh.
+
+**Extra:** A cool interactive game for learning Git. [learngitbranching.js.org](learngitbranching.js.org)
+
+**Code Snippets:**
+
+{% highlight javascript %}
+```javascript
+desc("Check external dependencies");
+  task("version", ()=>{
+    console.log("Checking dependencies...");
+
+    const EXPECTED_NODE_VERSION = packageJson.engines.node;
+    let actualVersion = process.version;
+
+    if ( semver.neq(EXPECTED_NODE_VERSION,actualVersion) )
+      fail(`Incorrect Node version: expected ${EXPECTED_NODE_VERSION} , but was ${actualVersion}`);
+  });
+
+  desc("Lint JavaScript code");
+  task("lint", ()=>{
+    process.stdout.write("Linting JavaScript: ");
+
+    jshint.checkFiles({
+      files: ["Jakefile.js", "src/**/*.js"],
+      options: {},
+      globals: {}
+    },complete, fail);
+    // without simplebuild-jshint, run jshint from command line
+    // jake.exec("node node_modules/jshint/bin/jshint Jakefile.js", {interactive: true}, complete);
+  },{ async: true });
+```
+{% endhighlight %}
+
 ## About #100DaysofCode
 * [Rules](rules.md)
 * [Previous Log: my first run – ended on the 8th day ](previous-log.md)
