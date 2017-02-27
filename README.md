@@ -282,7 +282,7 @@ Trivia: The last log also stopped on the 8th entry. Hmm what's with the number 8
 
 **Thoughts:** Okay, so we have Jake, Grunt, and Gulp. JS is full of choices, eh.
 
-**Extra:** A cool interactive game for learning Git. [learngitbranching.js.org](learngitbranching.js.org)
+**Extra:** A cool interactive game for learning Git. [learngitbranching.js.org](http://learngitbranching.js.org)
 
 **Code Snippets:**
 
