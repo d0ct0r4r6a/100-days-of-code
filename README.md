@@ -282,7 +282,7 @@ Trivia: The last log also stopped on the 8th entry. Hmm what's with the number 8
 
 **Thoughts:** Okay, so we have Jake, Grunt, and Gulp. JS is full of choices, eh.
 
-**Extra:** A cool interactive game for learning Git. [learngitbranching.js.org](learngitbranching.js.org)
+**Extra:** A cool interactive game for learning Git. [learngitbranching.js.org](http://learngitbranching.js.org)
 
 **Code Snippets:**
 
@@ -313,6 +313,39 @@ desc("Check external dependencies");
   },{ async: true });
 ```
 {% endhighlight %}
+
+### Day 12: 28 Feb 2017
+
+**Today's Progress:** Learned TDD JavaScript development. Again, following tutorials.
+
+**Thoughts:** Chai + Mocha + Karma = Testing Trio. There should have been more of JS testing utilities, knowing how JS community is.
+
+**Code Snippets:**
+
+{% highlight javascript %}
+```javascript
+desc("Start the Karma server. [START THIS FIRST]");
+  task("karma", ()=>{
+    console.log("Starting karma server...");
+    karma.start({
+      configFile: KARMA_CONFIG
+    }, complete, fail);
+  }, {async: true});
+
+  desc("Default build");
+  task("default",["version","lint","test"], ()=>{
+    console.log("\nBUILD SUCCESS");
+  });
+```
+{% endhighlight %}
+
+### Day 13: 01 Mar 2017
+
+**Today's Progress:** Learned how to use Modernizr to detect browser features. I also played learngitbranching.com until remoteAdvanced5 level.
+
+**Thoughts:** Phew. There are a lot of things to juggle in developing a webapp, huh.
+
+**Not coding, but...:** I was preparing my interview tomorrow for a Junior Business Analyst position in BCA. So half of the day I was just browsing their apps and reviewing software dev practices.
 
 ## About #100DaysofCode
 * [Rules](rules.md)
