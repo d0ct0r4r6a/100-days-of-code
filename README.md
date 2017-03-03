@@ -347,6 +347,12 @@ desc("Start the Karma server. [START THIS FIRST]");
 
 **Not coding, but...:** I was preparing my interview tomorrow for a Junior Business Analyst position in BCA. So half of the day I was just browsing their apps and reviewing software dev practices.
 
+### Day 14: 02 Mar 2017
+
+**Today's Progress:** Learned about using JSON
+
+**Thoughts:** Are all APIs now using JSON as their data interchange format?
+
 ## About #100DaysofCode
 * [Rules](rules.md)
 * [Previous Log: my first run – ended on the 8th day ](previous-log.md)
